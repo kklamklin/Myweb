@@ -12,7 +12,7 @@ let cer2_txt = document.querySelector("#cer2_txt")
 let cer3_txt = document.querySelector("#cer3_txt")
 let cer4_txt = document.querySelector("#cer4_txt")
 let is_click_menu_bar = false
-fetch("data.json")
+fetch("Data.json")
   .then((response) => {
     console.log(response); 
     return response.text()})
