@@ -3,6 +3,7 @@ const navbar = document.querySelector("#navbar")
 const wel_box = document.querySelector("#wel_box")
 const wel_box_wel_txt = document.querySelector("#wel_txt")
 let is_click_menu_bar = false
+
 console.log("click!")
 
 ran_word_in = [
@@ -28,12 +29,9 @@ navbarMenu.addEventListener("click", ()=>{
     console.log(is_click_menu_bar)
     let menu_bar = document.querySelector("#menu_bar")
     if (is_click_menu_bar){
-        document.body.style.filter = "brightness(50%)"
-        menu_bar.style.filter = "brightness(100%)"
         menu_bar.classList.add("menu_bar_open")
     }
     else{
-        document.body.style.filter = "brightness(100%)"
         menu_bar.classList.remove("menu_bar_open")
     }
 }
