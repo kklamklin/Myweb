@@ -29,6 +29,7 @@ navbarMenu.addEventListener("click", ()=>{
     let menu_bar = document.querySelector("#menu_bar")
     if (is_click_menu_bar){
         document.body.style.filter = "brightness(50%)"
+        menu_bar.style.filter = "brightness(100%)"
         menu_bar.classList.add("menu_bar_open")
     }
     else{
