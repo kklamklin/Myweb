@@ -152,6 +152,8 @@ a{
 }
 .cer_container{
     display: flex;
-    
-    
+}
+.textHighlight{
+    background-color: yellow;
+    color: black;
 }
