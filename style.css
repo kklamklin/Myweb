@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    font-family: "VT323", monospace;
+    font-style: normal;
+    font-size: 150%;
+}
+#navbar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 30px 20px;
+}
+
+.navbar_menu{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.navbar_menu_svg{
+    height: 30px;
+    width: 30px;
+}
+
+#bg_1{
+    height: 100vh;
+    background-image: url(asset/pixel_world_bg.png.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center ;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
